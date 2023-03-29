@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import openai
 
 # INSERT YOUR OPENAI_API KEY HERE
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY_HERE"
 
 app = Flask(__name__)
 
