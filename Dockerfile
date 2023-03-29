@@ -10,5 +10,5 @@ COPY . .
 
 ENV FLASK_APP=app.py
 
-CMD python3 app.py
+CMD flask --app app run --host=0.0.0.0
 EXPOSE 5000
